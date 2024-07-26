@@ -1,7 +1,7 @@
 if Code.ensure_loaded?(Tds) do
   defmodule Tds.Ecto.UUID do
     @moduledoc """
-    A TDS adapter type for UUIDs strings.
+    A TDS adapter type for UUID strings.
 
     If you are using Tds adapter and UUIDs in your project, instead of `Ecto.UUID`
     you should use Tds.Ecto.UUID to generate correct bytes that should be stored

@@ -127,7 +127,7 @@ if Code.ensure_loaded?(Tds) do
     end
 
     defp prepare_param(%{__struct__: module} = _value) do
-      # just in case dumpers/loaders are not defined for the this struct
+      # just in case dumpers/loaders are not defined for this struct
       error!(
         nil,
         "Tds adapter is unable to convert struct `#{inspect(module)}` into supported MSSQL types"

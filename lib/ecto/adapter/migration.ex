@@ -51,7 +51,7 @@ defmodule Ecto.Adapter.Migration do
   @type ddl_object :: Table.t() | Index.t()
 
   @doc """
-  Checks if the adapter supports ddl transaction.
+  Checks if the adapter supports DDL transaction.
   """
   @callback supports_ddl_transaction? :: boolean
 
